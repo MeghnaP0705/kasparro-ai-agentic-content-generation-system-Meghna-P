@@ -47,7 +47,7 @@ A multi-agent system with clear separation of concerns:
    - Responsibility: Product comparison and fictional product generation
 
 ### Workflow DAG
-<img width="664" height="1496" alt="image" src="https://github.com/user-attachments/assets/ff06e53a-5994-4a2a-8d35-2f591505fa84" />
+<img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/ff06e53a-5994-4a2a-8d35-2f591505fa84" />
 
 
 ### Content Blocks (Reusable Logic)
