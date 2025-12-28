@@ -47,21 +47,8 @@ A multi-agent system with clear separation of concerns:
    - Responsibility: Product comparison and fictional product generation
 
 ### Workflow DAG
-```
-Raw JSON Data
-↓
-DataParserAgent
-↓
-ProductModel
-↓
-├→ QuestionGeneratorAgent → Questions
-↓ ↓
-├→ ContentGenerationAgent → FAQ.json
-↓
-├→ ContentGenerationAgent → product_page.json
-↓
-└→ ComparisonAgent → comparison_page.json
-```
+<img width="1664" height="2496" alt="image" src="https://github.com/user-attachments/assets/ff06e53a-5994-4a2a-8d35-2f591505fa84" />
+
 
 ### Content Blocks (Reusable Logic)
 - **BenefitsBlock**: Formats benefits into marketing copy
