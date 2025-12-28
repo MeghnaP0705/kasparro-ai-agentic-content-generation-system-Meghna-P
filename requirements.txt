@@ -1,7 +1,4 @@
 # No external dependencies required for basic functionality
 # This system runs on pure Python without LLM APIs
 
-# Optional: If you want to add LLM integration later
-# openai>=1.0.0
-# anthropic>=0.7.0
-# python-dotenv>=1.0.0
+
