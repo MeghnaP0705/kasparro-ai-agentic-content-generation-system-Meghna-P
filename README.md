@@ -3,7 +3,7 @@
 Multi-agent system for automated content generation from product data.
 
 ## Quick Start
-
+### ***NOTE*** 
 ***Before running, delete the file in the output folder as I have included my output folder here as well in the github repository. The files in output folder are obtained after running the code.***
 1. Install dependencies (optional - no external deps required):
 ```
