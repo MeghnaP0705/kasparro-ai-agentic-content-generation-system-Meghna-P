@@ -4,7 +4,7 @@ Multi-agent system for automated content generation from product data.
 
 ## Quick Start
 ### ***NOTE*** 
-***Before running, delete the file in the output folder as I have included my output folder here as well in the github repository. The files in output folder are obtained after running the code.***
+***Before running, delete all the files in the output folder as I have included my output files here as well in the github repository. The files in output folder are obtained after running the code.***
 1. Install dependencies (optional - no external deps required):
 ```
 pip install -r requirements.txt
@@ -29,13 +29,13 @@ python main.py
 
 ## Project Structure
 ```
-├── agents/ # Specialized agents
-├── content_blocks/ # Reusable content logic
-├── templates/ # Page templates
-├── orchestrator/ # Workflow orchestration
-├── models/ # Data models
-├── data/ # Input data
-└── output/ # Generated JSON files
+├── agents/             # Specialized agents
+├── content_blocks/     # Reusable content logic
+├── templates/          # Page templates
+├── orchestrator/       # Workflow orchestration
+├── models/             # Data models
+├── data/               # Input data
+└── output/             # Generated JSON files
 ```
 
 See `docs/projectdocumentation.md` for detailed system design.
