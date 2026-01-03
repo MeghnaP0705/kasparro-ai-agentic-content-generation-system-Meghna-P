@@ -38,54 +38,38 @@ Orchestrator-Workers Pattern with DAG (Directed Acyclic Graph) execution flow
 Each agent has a single responsibility, defined input/output, and no hidden global state:
 ​
 1. Data Parser Agent
-Input: Raw JSON product data dictionary
-
-Output: Validated ProductModel object
-
-Responsibility: Parse and convert data into clean internal model
-
-Autonomy: Runs independently, validates required fields, broadcasts parsed data
+- Input: Raw JSON product data dictionary
+- Output: Validated ProductModel object
+- Responsibility: Parse and convert data into clean internal model
+- Autonomy: Runs independently, validates required fields, broadcasts parsed data
 
 2. Question Generator Agent
-Input: ProductModel
-
-Output: List of 15+ categorized questions
-​
-Categories: Informational, Safety, Usage, Purchase, Comparison
-​
-Responsibility: Automatically generate user questions across all categories
-
-Autonomy: Listens for product data broadcasts, generates questions independently
+- Input: ProductModel
+- Output: List of 15+ categorized questions
+​- Categories: Informational, Safety, Usage, Purchase, Comparison
+​- Responsibility: Automatically generate user questions across all categories
+- Autonomy: Listens for product data broadcasts, generates questions independently
 
 3. FAQ Generator Agent
-Input: ProductModel + Generated questions
-
-Output: FAQ page JSON (minimum 5 Q&As)
-​
-Responsibility: Apply FAQ template and generate contextual answers
-
-Autonomy: Generates answers based on product data rules
+- Input: ProductModel + Generated questions
+- Output: FAQ page JSON (minimum 5 Q&As)
+​- Responsibility: Apply FAQ template and generate contextual answers
+- Autonomy: Generates answers based on product data rules
 
 4. Product Page Generator Agent
-Input: ProductModel + Content blocks
-
-Output: Product page JSON
-
-Responsibility: Apply content logic blocks (benefits, usage, ingredients) and render via template
-​
-Autonomy: Assembles complete product page using reusable blocks
+- Input: ProductModel + Content blocks
+- Output: Product page JSON
+- Responsibility: Apply content logic blocks (benefits, usage, ingredients) and render via template
+​- Autonomy: Assembles complete product page using reusable blocks
 
 5. Comparison Agent
-Input: ProductModel (GlowBoost)
-
-Output: Comparison page JSON
-
-Responsibility: Generate fictional Product B and create structured comparison
-
-Autonomy: Creates fictional competitor, performs multi-dimensional comparison
+- Input: ProductModel (GlowBoost)
+- Output: Comparison page JSON
+- Responsibility: Generate fictional Product B and create structured comparison
+- Autonomy: Creates fictional competitor, performs multi-dimensional comparison
 
 ### Workflow DAG
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ff06e53a-5994-4a2a-8d35-2f591505fa84" />
+<img width="500" height="500" alt="image" src="https://github.com/MeghnaP0705/kasparro-ai-agentic-content-generation-system-Meghna-P/blob/main/docs/generated-image.png">
 
 
 ### Content Blocks (Reusable Logic)
