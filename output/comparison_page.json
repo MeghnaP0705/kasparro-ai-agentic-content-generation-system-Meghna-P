@@ -23,7 +23,7 @@
     "product_b": {
       "name": "RadiantGlow Vitamin C Essence",
       "concentration": "15% Vitamin C",
-      "price": 999,
+      "price": 799,
       "skin_type": [
         "Normal",
         "Dry"
@@ -43,10 +43,10 @@
   },
   "price_comparison": {
     "product_a_price": 699,
-    "product_b_price": 999,
-    "difference": 300,
+    "product_b_price": 799,
+    "difference": 100,
     "cheaper_product": "GlowBoost Vitamin C Serum",
-    "percentage_difference": 30.03
+    "percentage_difference": 12.52
   },
   "ingredient_comparison": {
     "common_ingredients": [
@@ -70,8 +70,8 @@
       "Fades dark spots"
     ],
     "unique_to_product_b": [
-      "Hydration",
-      "Anti-aging"
+      "Anti-aging",
+      "Hydration"
     ]
   },
   "skin_type_comparison": {
@@ -81,8 +81,8 @@
       "Oily"
     ],
     "unique_to_product_b": [
-      "Normal",
-      "Dry"
+      "Dry",
+      "Normal"
     ]
   },
   "winner_analysis": {

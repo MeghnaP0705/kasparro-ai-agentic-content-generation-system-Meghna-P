@@ -1,40 +1,40 @@
 {
   "page_type": "FAQ",
   "product_name": "GlowBoost Vitamin C Serum",
-  "total_questions": 16,
+  "total_questions": 15,
   "faqs": [
     {
       "question": "What is GlowBoost Vitamin C Serum?",
-      "answer": "Please refer to the product details for more information about GlowBoost Vitamin C Serum.",
+      "answer": "For more information about GlowBoost Vitamin C Serum, please refer to the product details.",
       "category": "Informational"
     },
     {
-      "question": "What are the key ingredients in GlowBoost Vitamin C Serum?",
-      "answer": "The key ingredients in GlowBoost Vitamin C Serum are Vitamin C, Hyaluronic Acid.",
+      "question": "What are the key ingredients?",
+      "answer": "The key ingredients are Vitamin C, Hyaluronic Acid.",
       "category": "Informational"
     },
     {
-      "question": "What is the concentration of active ingredients?",
-      "answer": "The key ingredients in GlowBoost Vitamin C Serum are Vitamin C, Hyaluronic Acid.",
+      "question": "What skin types is it suitable for?",
+      "answer": "Suitable for Oily and Combination skin.",
       "category": "Informational"
     },
     {
-      "question": "What skin types is GlowBoost Vitamin C Serum suitable for?",
-      "answer": "GlowBoost Vitamin C Serum is suitable for Oily and Combination skin.",
+      "question": "What is the concentration?",
+      "answer": "It contains 10% Vitamin C.",
       "category": "Informational"
     },
     {
-      "question": "Are there any side effects of using GlowBoost Vitamin C Serum?",
+      "question": "Are there any side effects?",
       "answer": "Mild tingling for sensitive skin",
       "category": "Safety"
     },
     {
-      "question": "Is GlowBoost Vitamin C Serum safe for sensitive skin?",
-      "answer": "Please refer to the product details for more information about GlowBoost Vitamin C Serum.",
+      "question": "Is it safe for sensitive skin?",
+      "answer": "For more information about GlowBoost Vitamin C Serum, please refer to the product details.",
       "category": "Safety"
     },
     {
-      "question": "Can I use GlowBoost Vitamin C Serum with other products?",
+      "question": "Can I use it with other products?",
       "answer": "Apply 2-3 drops in the morning before sunscreen",
       "category": "Safety"
     },
@@ -44,51 +44,46 @@
       "category": "Usage"
     },
     {
-      "question": "When should I apply GlowBoost Vitamin C Serum?",
+      "question": "When should I apply it?",
       "answer": "Apply 2-3 drops in the morning before sunscreen",
       "category": "Usage"
     },
     {
-      "question": "How many drops of GlowBoost Vitamin C Serum should I use?",
+      "question": "How much should I use?",
       "answer": "Apply 2-3 drops in the morning before sunscreen",
       "category": "Usage"
     },
     {
-      "question": "Can I use GlowBoost Vitamin C Serum daily?",
+      "question": "Can I use it daily?",
       "answer": "Apply 2-3 drops in the morning before sunscreen",
       "category": "Usage"
     },
     {
-      "question": "What is the price of GlowBoost Vitamin C Serum?",
+      "question": "What is the price?",
       "answer": "GlowBoost Vitamin C Serum is priced at ₹699.",
       "category": "Purchase"
     },
     {
-      "question": "Where can I buy GlowBoost Vitamin C Serum?",
-      "answer": "Please refer to the product details for more information about GlowBoost Vitamin C Serum.",
+      "question": "Where can I buy it?",
+      "answer": "For more information about GlowBoost Vitamin C Serum, please refer to the product details.",
       "category": "Purchase"
     },
     {
-      "question": "Is GlowBoost Vitamin C Serum worth the price?",
+      "question": "Is it worth the price?",
       "answer": "GlowBoost Vitamin C Serum is priced at ₹699.",
       "category": "Purchase"
     },
     {
-      "question": "How does GlowBoost Vitamin C Serum compare to other Vitamin C serums?",
-      "answer": "Please refer to the product details for more information about GlowBoost Vitamin C Serum.",
-      "category": "Comparison"
-    },
-    {
-      "question": "What makes GlowBoost Vitamin C Serum different?",
-      "answer": "Please refer to the product details for more information about GlowBoost Vitamin C Serum.",
+      "question": "How does it compare to other serums?",
+      "answer": "For more information about GlowBoost Vitamin C Serum, please refer to the product details.",
       "category": "Comparison"
     }
   ],
   "categories": [
-    "Safety",
-    "Informational",
-    "Purchase",
     "Usage",
-    "Comparison"
+    "Purchase",
+    "Comparison",
+    "Safety",
+    "Informational"
   ]
 }

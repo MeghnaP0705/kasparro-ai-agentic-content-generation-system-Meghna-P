@@ -1,5 +1,4 @@
 import json
-import sys
 from orchestrator.workflow_orchestrator import WorkflowOrchestrator
 
 def load_product_data():
@@ -8,29 +7,33 @@ def load_product_data():
         return json.load(f)
 
 def main():
-    """Main entry point for the application."""
-    print("\n" + "="*60)
-    print("Multi-Agent Content Generation System")
-    print("Kasparro AI Engineer Challenge")
-    print("="*60 + "\n")
-    
+    """Main entry point for autonomous multi-agent system."""
+    print("\n" + "="*70)
+    print("Kasparro AI - Multi-Agent Content Generation System")
+    print("True Autonomous Agent Architecture with Message Passing")
+    print("="*70 + "\n")
+
     try:
         # Load input data
         product_data = load_product_data()
         print(f"Loaded product: {product_data['name']}\n")
-        
-        # Initialize orchestrator
+
+        # Initialize orchestrator (automatically starts all agents)
         orchestrator = WorkflowOrchestrator()
-        
-        # Run the complete pipeline
+
+        # Run the autonomous pipeline
         orchestrator.run_pipeline(product_data)
-        
+
         print("\n✅ Content generation completed successfully!")
-        print("\nCheck the output/ directory for generated JSON files.")
-        
+        print("\nGenerated files in output/ directory:")
+        print("  - faq.json (FAQ page with 15+ questions)")
+        print("  - product_page.json (Complete product page)")
+        print("  - comparison_page.json (Product comparison)\n")
+
     except Exception as e:
         print(f"\n❌ Error: {str(e)}")
-        sys.exit(1)
+        import traceback
+        traceback.print_exc()
 
 if __name__ == "__main__":
     main()
