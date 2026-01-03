@@ -4,7 +4,7 @@ Multi-agent system for automated content generation from product data.
 
 ## Quick Start
 ### ***NOTE*** 
-***Before running, delete all the files in the output folder as I have included my output files here as well in the github repository. The files in output folder are obtained after running the code.***
+***Before running, delete all files in the output/ folder if you cloned this from GitHub and it already contains JSON outputs, because those files are generated when the system runs and should not be committed.***
 
 
 1. Run the system:
@@ -19,16 +19,17 @@ python main.py
 
 ## System Architecture
 
-- **Agents**: Specialized workers (Parser, Question Generator, Content Generator, Comparison)
-- **Templates**: Structured page definitions (FAQ, Product, Comparison)
-- **Content Blocks**: Reusable logic (Benefits, Usage, Ingredients, Comparison)
-- **Orchestrator**: Workflow coordinator with DAG execution
+- **Agents**: Autonomous workers (Data Parser, Question Generator, FAQ Generator, Product Page Generator, Comparison Generator) running in their own loops and communicating via messages rather than direct function calls.
+- **Message Layer**: Central message bus and typed messages enabling asynchronous, decoupled agent-to-agent and agent–orchestrator communication.
+- **State Machine**: Explicit workflow state machine that drives transitions (parse → questions → FAQ → product page → comparison) based on events, not static control flow.
+- **Orchestrator**: Coordinates agents by sending and receiving messages and triggering state transitions, while agents remain independent and reusable.
+
 
 ## Project Structure
 ```
 ├── agents/             # Specialized agents
 ├── content_blocks/     # Reusable content logic
-├── templates/          # Page templates
+├── messaging/          # Message passing layer
 ├── orchestrator/       # Workflow orchestration
 ├── models/             # Data models
 ├── data/               # Input data
